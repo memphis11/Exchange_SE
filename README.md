@@ -2,7 +2,6 @@
 Inhalt:
 Installation eines Exchange SE Servers
 
-Scripte für:
 Exchange:
 1-0_Vorrausetzungen
 1-1_Vorbereitungen
