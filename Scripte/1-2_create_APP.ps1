@@ -24,7 +24,7 @@ $SP = New-MgServicePrincipal -AppId $App.AppId
 
 # Berechtigung für Exchange hinzufügen
 $ExchangeResourceId = "00000002-0000-0ff1-ce00-000000000000"
-$PermissionId = "dc50a0fb-168b-4c99-8f7e-0a1d22288f85"  # full_access_as_app
+$PermissionId = "dc50a0fb-168b-4c99-8f7e-0a1d22288f85"  
 $AppPermission = @{
     ResourceAppId = $ExchangeResourceId
     ResourceAccess = @(@{ Id = $PermissionId; Type = "Role" })
